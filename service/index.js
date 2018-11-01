@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://39.106.43.59:21117/test11');
+mongoose.connect('mongodb://localhost:21117/test11');
 
 const userSchema = new mongoose.Schema({
     nickname: String
